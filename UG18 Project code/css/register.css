@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.registration-form{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 50%;
+}
+
+.input {
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+
+.input input[type="text"], input[type="password"]{
+	width: 100%;
+	border-radius: 3px;
+	border: 1.3px solid #9597a6;
+	padding: 10px;
+	outline: none;
+}
+
+.register-button {
+	width: 100%;
+	background: #0d6ad7;
+	padding: 10px;
+	border: 0;
+    color:white;
+    font-size:17px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+.register-button:hover{
+	background: #051c94;
+}
